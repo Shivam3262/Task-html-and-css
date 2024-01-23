@@ -1,19 +1,13 @@
-*{
-    margin: 0px;
-    border: 0px;
-}
-/*----------------------------------------*/
 body {
     background-color: #dedede57;
     margin: 3vw 2vw 5vw 2vw;
     font-size: small;
-    /* text-align: center; */
+    font-weight: 100;
+ 
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
-/* .container *{
-    margin: 2px;
-} */
+
 hr{
     border: 0.1px solid rgb(197, 197, 197);
     /* width: ; */
@@ -22,7 +16,7 @@ hr{
 div{
     padding-bottom: 2%;
 }
-/*-------------------------------------------- */
+
 .container { 
     display: flex;
     margin-bottom: 0;
@@ -47,11 +41,9 @@ div{
 
 .table-content{
     display: flex;
-    margin-right: 5%;
-    /* flex-basis: 10rem; */
-    /* flex-grow: 1; */
+  
+    flex-grow: 1;
 
-    /* font-size: x-large; */
 }
 
 table {
@@ -85,12 +77,10 @@ p{
 }
 h1{
     font-weight: 400;
-    color: rgb(0, 0, 0);
+    color: rgb(134, 134, 134);
 }
 h2{
     font-size: 1.6em;
-    font-weight:bolder;
-    color: rgb(0, 0, 0);
 } 
 
 p{
@@ -100,8 +90,8 @@ p{
 .icons img,.profile-picture {
     width: 3.5vw;
     height: 3.5vw;
-    object-fit: cover; /* Preserve the aspect ratio and cover the container */
-    border-radius: 50%; /* Use 50% for a perfect circle */
+    object-fit: cover; 
+    border-radius: 50%; 
 }
 .sales-report img{
     display: flex;
@@ -112,19 +102,17 @@ p{
 .sales-report{
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
     align-items: last baseline;
     margin-bottom: 0;
     padding-bottom: 0;
     font-size: 1em;
-    /* flex-grow: 1; */
 }
 .sales-report p, .sales-report h2 {
     padding-left: 1.3rem;
 }
 
 
-/*---------------- Second container------------------- */
+
 section{
     display: flex;
 }
@@ -149,13 +137,9 @@ section{
     padding:  1.2vw ;
     gap: 10px;
     background-color: #fbfbfb;
-    /* border: 0px; */
     margin-bottom: 15px;
     margin-right: 2rem;
     width: 19vw ;
-    /* justify-content:space-around; */
-
-
     
 }
 
@@ -166,10 +150,8 @@ section{
 
 }
 .feed-container{
-    /* padding:  1.2vw ; */
     background-color: #fff;
     margin-right: 7vw;
-    /* box-shadow: 2px 2px 2px  rgba(91, 91, 91, 0.365); */
     padding-bottom: 0vw;
 
     
@@ -245,7 +227,7 @@ display: flex;
 }
 
 
-/* css buttons ----------*/
+
 .button-container {
     display: flex;
     align-items: center;
@@ -273,7 +255,7 @@ display: flex;
 }
 
 .button:last-child {
-    border-right: none; /* Remove the right border from the last button */
+    border-right: none; 
 }
 
 
@@ -327,8 +309,6 @@ textarea{
 
 .last-container{
     display: flex;
-    /* gap: 5px; */
-    /* padding: 0 10px 10px 10px; */
     flex-direction: column;
     box-shadow: none;
 }
@@ -358,35 +338,10 @@ margin-right: 0px;
     
 }
 
-/* .right-container-arrow {
-    height: 0;
-    width: 0;
-    position: absolute;
-    z-index: -1;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-right: 15px solid #fff;
-    left: -10px;
-    top: 12%; 
-    transform: translateY(-50%); 
-} */
+
 .meeting-container {
     position: relative;
 }
-
-/* .right-container-arrow:nth-child(1) {
-    height: 0;
-    width: 0;
-    position: absolute;
-    z-index: -1;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-right: 15px solid red;
-    left: -15px;
-    top: 50%;
-    transform: translateY(-50%);
-} */
-
 
 .meeting-container img {
     position: absolute;
@@ -401,71 +356,11 @@ margin-right: 0px;
 }
 
 
-/*---------- timeline -------------*/
-/* .last-container{
-    display: block;
-    flex-flow: column;
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.container{
-    padding: 10px 50px;
-    position: relative;
-    width: 50%;
-    background-color: #fbfbfb;
-}
-.textbox{
-    padding: 20px 30px ;
-    position: relative;
-    border-radius: 6px;
-    font-size: 15px;
-}
-.right-container{
-    left: 50%;
-}
-.right-container img{
-    position: absolute;
-    width: 40px;
-    border-radius: 50%;
-    right: -20px;
-    top: 32px;
-    z-index: 10;
-}
-.right-container img{
-    left: -80px;
-}
-.timeline::after{
-    content: '';
-    position: absolute;
-    width: 6px;
-    height: 100%;
-    background: blue;
-    top: 0;
-    left: 45%;
-    margin-left: -3px;
-    z-index: -1;
-}
-.right-container-arrow{
-    height: 0;
-    width: 0;
-    position: absolute;
-    top: 28px;
-    z-index: 1;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-right: 15px solid red;
-    left: -15px;
-} */
-
-
 .btn:hover{
     background-color: rgb(72, 72, 72);
     color: white;
     transition: .1s ease-in;
 }
-
-/* -------------Media queries for different screen sizes--------- */
 
 @media (min-width:600px) and (max-width:704px){
  
@@ -484,9 +379,7 @@ margin-right: 0px;
     }
     .table-content{
         display: inline;
-        /* margin-left: 25%; */
-        /* margin-left: 10vw; */
-        /* width: 20rem; */
+   
         padding-right:5vw ;
         
     }
@@ -509,7 +402,7 @@ margin-right: 0px;
     height: 1em;
     align-items: center;
     padding-right: 0.3vw;
-    /* font-size: 1em; */
+
  
 }
 .button{
@@ -534,7 +427,7 @@ margin-right: 0px;
     body{
         margin: 3em 2em 2em 2em;
         text-align: center;
-        /* justify-content: center; */
+  
 
     }
     .container img{
@@ -566,8 +459,6 @@ margin-right: 0px;
         margin-left: 16%;
 
         display: inline;
-        /* margin-left: 10vw; */
-     
         padding-right:5vw ;
         
     }
@@ -637,7 +528,7 @@ textarea{
 }
 .container p{
     padding-left: 15%;
-    /* margin: 10px; */
+
 
 }
 
